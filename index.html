@@ -29,7 +29,7 @@
                 <a class="nav-link textColor" href="#projects">PROJETS</a>
               </li>
               <li class="nav-item hoverScale ">
-                <a class="nav-link textColor" href="#">CONTACT</a>
+                <a class="nav-link textColor" href="#contact">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -214,9 +214,51 @@
 
     <!-- Contact Section -->
 
-    <section class="container-fluid">
-        
+    <section class="container-fluid row justify-content-center my-5" id="contact">
+        <h2 class="titleColor text-center mb-5">CONTACT</h2>
+        <form style="width: 26rem;" class="textColor2">
+            <!-- Name input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="text" id="form4Example1" class="form-control" />
+              <label class="form-label" for="form4Example1">Name</label>
+            </div>
+          
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <input type="email" id="form4Example2" class="form-control" />
+              <label class="form-label" for="form4Example2">Email address</label>
+            </div>
+          
+            <!-- Message input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <textarea class="form-control" id="form4Example3" rows="4"></textarea>
+              <label class="form-label" for="form4Example3">Message</label>
+            </div>
+          
+            <!-- Checkbox -->
+            <div class="form-check d-flex justify-content-center mb-4">
+              <input
+                class="form-check-input me-2 "
+                type="checkbox"
+                value=""
+                id="form4Example4"
+                checked
+              />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div>
+            <div class="text-center">
+            <!-- Submit button -->
+            <button data-mdb-ripple-init type="button" class="btn btn-success btn-block mb-4 hoverScale ">Send</button>
+        </div>
+          </form>
     </section>
+
+    <footer class="bg-transparent blurDiv text-center">
+        <p class="text-light">Delahaye Christophe with Bootstrap. <a href="#heroSection"><i class="fa-solid fa-circle-up fa-2xl mx-5" style="color: #30a46c;"></i></a></p> 
+        
+    </footer>
 
     <script src="app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
