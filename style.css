@@ -1,0 +1,81 @@
+:root {
+    --main-bg-color: #0E1511;
+    --second-bg-color: #B2B3BD;
+    --tertiaire-bg-color: #19191B;
+    --hover-text-color: #EEEEF0;
+    --interactive-component-color: #35423B;
+    --interactive-component-second-color: #222325;
+    --border-separator-color: #626F68;
+    --title-color: #30A46C;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--main-bg-color);
+}
+
+
+
+.blurDiv {
+    backdrop-filter: blur(10px);   
+}
+
+.textColor {
+    color: var(--second-bg-color);
+}
+
+.textColor:hover {
+    color: var(--hover-text-color);
+}
+
+.textColor2 {
+    color: var(--second-bg-color);
+}
+
+.mainColor {
+    color: var(--main-bg-color);
+}
+
+.bgMainColor  {
+    background-color: var(--main-bg-color);
+}
+
+.bgSecondColor  {
+    background-color: var(--hover-text-color);
+}
+
+.interactiveComponentColor {
+    background-color: var(--interactive-component-color);
+    border: 2px solid;
+    border-color:  var(--border-separator-color);
+}
+
+.interactiveComponentColorSecond {
+    background-color: var(--interactive-component-second-color);
+    border: 2px solid;
+    border-color: var(--interactive-component-second-color);
+    color: var(--hover-text-color);
+}
+
+.hoverScale {
+    transition: all 0.3s ease-in-out;
+}
+
+.hoverScale:hover {
+    transform: scale(1.1);
+    color: var(--hover-text-color);
+}
+
+.secondBackgroundColor  {
+    background-color: var(--hover-text-color);
+}
+
+.titleColor {
+    color: var(--title-color);
+}
+
+
